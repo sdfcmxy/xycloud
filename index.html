@@ -12,6 +12,10 @@ body { background: #0a0a0f; color: #e0e0e0; font-family: -apple-system, 'PingFan
 /* Hero */
 .hero { text-align: center; padding: 80px 20px 60px; }
 .hero h1 { font-size: 3em; color: #c026ff; text-shadow: 0 0 40px rgba(192,38,255,0.6); letter-spacing: 3px; }
+.lang-switch { position: absolute; top: 20px; right: 30px; }
+.lang-switch a { color: #888; text-decoration: none; padding: 6px 12px; border: 1px solid #333; border-radius: 4px; font-size: 0.85em; }
+.lang-switch a:hover { color: #00e5ff; border-color: #00e5ff; }
+.lang-switch a.active { color: #c026ff; border-color: #c026ff; }
 .hero p { color: #888; font-size: 1.1em; margin-top: 10px; }
 .hero .bio { max-width: 500px; margin: 20px auto 0; color: #aaa; }
 .hero .tagline { margin-top: 30px; }
@@ -62,6 +66,7 @@ footer { text-align: center; padding: 30px; color: #444; font-size: 0.85em; bord
 <!-- Hero -->
 <section class="hero">
   <h1>XY CLOUD</h1>
+  <div class="lang-switch"><a href="index.html" class="active">中文</a> <a href="en.html">EN</a></div>
   <p>独立电子音乐人 · 云南</p>
   <p class="bio">用 AI 创作驱动的电子音乐制作人。Soundraw 作曲 + MiniMax 增强 + LANDR 母带，发行级品质。<br>作品《霓虹城市》《云端热浪》已上线 Spotify / Apple Music。</p>
   <div class="tagline">
